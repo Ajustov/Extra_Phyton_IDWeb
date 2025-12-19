@@ -6,3 +6,6 @@ def promedio_modificado(*notas):
     promedio = suma / len(notas)
 
     return promedio
+
+resultado = promedio_modificado(12, 15, 17, 14)
+print(resultado)
