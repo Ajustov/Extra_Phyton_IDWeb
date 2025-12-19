@@ -1,4 +1,8 @@
-usuario = input("Ingrese el nombre de usuario: ")
-dominio = input("Ingrese el dominio: ")
+def crear_correo(datos):
+    print(datos[0], "@", datos[1], sep="")
 
-print(usuario, "@", dominio, sep="")
+datos = []
+datos.append(input("Ingrese el nombre de usuario: "))
+datos.append(input("Ingrese el dominio: "))
+
+crear_correo(datos)
